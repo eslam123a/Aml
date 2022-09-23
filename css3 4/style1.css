@@ -1,0 +1,509 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+}
+body{
+    height: 2700px;
+background-color: black;
+perspective: 600px;
+}
+.img1{
+    width: 150px;
+    height: 100px;
+   margin-left:0px;
+   display: inline;
+}a{
+    text-decoration: none;
+    list-style: none;
+    color:#8b0a3c;
+    padding-top: -30px;
+}.football .li2{
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+text-transform: capitalize;
+color:#8b0a3c;
+}
+.football{
+    margin-left: 140px;
+    margin-top: -90px;
+    position: relative;
+}.li2:hover{
+    height: 50px;
+    border:3px solid #90083c ;
+    padding-right: 30px;
+    padding-top: 10px;
+    animation-name: fifa;
+animation-duration: 1s;
+}@keyframes fifa{
+    0%{
+        background: rgba(241, 47, 115, 0.6);
+    
+    }
+}.img2{
+    margin-top: 100px;
+    width: 850px;
+    height: 400px;
+    z-index: 1;
+    margin-left: 80px;
+}
+.icons{
+    margin-left: 940px;
+    margin-top: -25px;
+    font-size: 20px;
+   
+}.i1{
+    color:#8b0a3c;
+}
+
+.list-group{
+    display: inline-block;
+    padding-left: 10px;
+
+}.list-group .li1{
+    list-style: none;
+    padding: 5px 20px;
+    color:#8b0a3c;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}.table{
+    width: 350px;
+    border:2px solid #8c0044;
+    margin-top: 10px;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+transform: scale(0);
+transition: 1s;
+background-color:rgb(247, 244, 244);
+z-index: 5;
+}.es:hover .table {
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+}.continaer1{
+    width: 100%;
+margin-top:200px;
+display: inline-block;
+}.players{
+    width: 20%;
+float: left;
+margin-left: 30px;
+}.img3{
+    width:200px;
+    height: 300px;
+    background-color: #8a0a39;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.titile{
+    text-align: center;
+    font-size: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#8b0a3c;
+margin-top: -80px;
+}
+.titile-h1{
+    text-align: center;
+    font-size: 50px;
+    color:#8b0a3c;
+}.play-ul{
+    margin-left: 20px;
+    list-style: none;
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.play-ul-li{
+    font-size: 20px;
+    color: gray;
+    opacity: 0.5;
+
+}li{
+    color: #8b0a3c;
+}
+
+.continaer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}.div-1{
+    width: 450px;
+    height: 350px;
+    background-color:#8b0a3c ;
+}.div-2{
+    width: 210px;
+    height: 300px;
+    background-color: #8b0a3c;
+    transition: 2s;
+}.div-3{
+    width: 210px;
+    height: 300px;
+    background-color: #8b0a3c;
+}.p1{
+    padding-left: 30px;
+padding-top: 10px;
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(247, 247, 247);
+}.span1{
+    padding-left: 160px;
+    
+}span{
+    padding-left: 10px;
+font-weight:bolder;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #565455;
+}.div-2:hover{
+transform: scale(1.2,1.2);
+transition: 2s;
+
+}.div-3:hover{
+    transform: scale(1.2,1.2);
+    transition: 2s;
+    
+    }.img4{
+        width: 190px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }.titile2{
+        color:rgb(246, 246, 246);
+        text-align: center;
+        margin-top: -30px;
+    }.i3{
+        font-size: 60px;
+        display: inline;
+        color: rgb(244, 244, 244);
+    }.ul-2 li{
+        display:inline-block;
+
+    }
+        
+        .li-0{
+        width: 80px;
+        height: 40px;
+        background-image: url(../lcons/kindpng_2367799.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        list-style: none;
+        margin-left: 120px;
+    }.ul-2{
+        position: relative;
+        margin-top: 150px;
+    }
+.li-1{
+        width:25px;
+        background-image: url(../lcons/kisspng-2022-fifa-world-cup-2018-fifa-world-cup-2014-fifa-the-world-cup-5b03820dc70309.1875218715269565578152.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 55px;
+        margin-left: 100px;
+    }
+    .li-6,.li-7,.li-8,.li-9{
+        height: 150px;
+        border-left: 2px solid rgb(125, 6, 68);
+        position: absolute;
+        top: 30px;
+    }.li-6{
+        left: 200px;
+    }.li-7{
+        left: 400px;
+    }.li-8{
+        left: 600px;
+    }.li-9{
+        left: 800px;
+    }
+
+
+    .li-2{
+        width: 110px;
+        height: 35px;
+background-image: url(../lcons/thai-airways-plane-png-2.png);
+background-repeat: no-repeat;
+background-size: cover;
+        list-style: none;
+margin-left: 100px;
+
+    }
+    
+    .li-3{
+        width: 60px;
+        height: 60px;
+        background-image: url(../play/—Pngtree—soccer\ ball\ of\ football\ cup_8498585.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        list-style: none;
+        margin-left: 130px;
+    }
+
+    
+    
+    .li-4{
+        width: 80px;
+        height: 80px;
+        background-image: url(../oct/—Pngtree—fifa\ world\ cup\ qatar\ 2022_8438598.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+margin-left: 120px;
+    }.li-4:hover{
+        animation-name: islam;
+animation-duration: 1s;
+        animation-play-state:running;
+    }
+    
+    @keyframes islam{
+       0%{
+        background-position:0px -300px;
+       }
+       100%{
+        background-position: center;
+       }
+    }.li-1:hover{
+        animation-name: islam;
+animation-duration: 1s;
+        animation-play-state:running;
+    }
+    
+    @keyframes islam{
+       0%{
+        background-position:0px -300px;
+       }
+       100%{
+        background-position: center;
+       }
+    }.li-3:hover{
+        animation-name: islam;
+animation-duration: 1s;
+        animation-play-state:running;
+    }
+    
+    @keyframes islam{
+       0%{
+        background-position:0px -300px;
+       }
+       100%{
+        background-position: center;
+       }
+    }.li-2:hover{
+        animation-name: islam;
+animation-duration: 1s;
+        animation-play-state:running;
+    }
+    
+    @keyframes islam{
+       0%{
+        background-position:0px -300px;
+       }
+       100%{
+        background-position: center;
+       }
+    }.li-0:hover{
+        animation-name: islam;
+animation-duration: 1s;
+        animation-play-state:running;
+    }
+    
+    @keyframes islam{
+       0%{
+        background-position:0px -300px;
+       }
+       100%{
+        background-position: center;
+       }
+    }
+.div5,footer,.div6,.div7,.div8,.div9,.div10,.div11,.div12,.div13,.div14,.div15,.div16{
+    width: 200px;
+    height: 250px;
+    background-color: #ebebeb;
+}
+
+ footer{
+margin: auto;
+position: relative;
+margin-top: 300px;
+}
+.img-1,.img-2{
+width: 100px;
+height: 200px;
+margin-left: 30px;
+margin-top: 20px;
+}
+.div5,.div6{
+
+    position: absolute;
+
+}
+.div5{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.div5:hover{
+transform: rotateY(180deg);
+transition: 1s;
+}.icons-find{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}.if{
+    color: #055daa;
+}.div7,.div8{
+margin-left: 300px;
+    position: absolute;
+
+}
+.div7{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.div7:hover{
+transform: rotateY(180deg);
+transition: 1s;
+}.div9,.div10{
+margin-left: -300px;
+    position: absolute;
+
+}
+.div9{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.div9:hover{
+transform: rotateY(180deg);
+transition: 1s;
+}.div11,.div12{
+margin-top: 450px;
+    position: absolute;
+
+}
+.div11{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.div11:hover{
+transform: rotateY(180deg);
+transition: 1s;
+}.div13,.div14{
+    margin-top: 450px;
+margin-left: 320px;
+    position: absolute;
+
+}
+.div13{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.div13:hover{
+transform: rotateY(180deg);
+transition: 1s;
+}.div15,.div16{
+    margin-top: 450px;
+margin-left: -320px;
+    position: absolute;
+
+}
+.div15{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.div15:hover{
+transform: rotateY(180deg);
+transition: 1s;
+}.container-footer{
+    width: 100%;
+    position: relative;
+}.titile-footer{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}.titile-h1-1{
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #920c3b;
+}.title-h2{
+    margin-left: 180px;
+    font-size: 30px;
+    color: #90083c;
+}.li-footer{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #90083c;
+}.div-footer{
+    position: absolute;
+    top: 260px;
+}.i-footer{
+
+    color: rgb(241, 212, 19);
+}.footre-h1{
+    color: rgb(243, 255, 240);
+}p{
+    color: azure;
+}.container5 .div-ul-1,.div-ul-2,.div-ul-3,.div-ul-4,.div-ul-5{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #ebebeb;
+}.div-ul-3{
+    margin-left: 70px;
+}.div-ul-4{
+    margin-left: 80px;
+}.div-ul-5{
+    margin-left: 90px;
+}.p-ul-2{
+    margin-top: 20px;
+    color: #565455;
+ }.titile-icons-1,.titile-icons-2,.titile-icons-4,.titile-icons-3{
+    width:50px ;
+    background-color: #90083c;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+ }.players:hover .titile-icons-1{
+visibility: visible;
+opacity: 1;
+
+ }.players:hover .titile-icons-2{
+    visibility: visible;
+    opacity: 1;
+    
+     }.players:hover .titile-icons-3{
+        visibility: visible;
+        opacity: 1;
+        
+         }.players:hover .titile-icons-4{
+            visibility: visible;
+            opacity: 1;
+            
+             }.titile-h1-4{
+                width: 20px;
+                height: 20px;
+                color: #ebebeb;
+                background-color: #8a0a39;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+                border-radius: 50%;
+             }.titiel-h1-5{
+                color: #565455;
+                font-size: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+             }.p-t{
+                color: #8b0a3c;
+                padding-left: 25px;
+                font-size: 15;
+                margin-top: -5px;
+             }
